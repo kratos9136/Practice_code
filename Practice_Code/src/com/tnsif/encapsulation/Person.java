@@ -5,6 +5,13 @@ public class Person {
    private int id;
 
    public Person() {
+	   this.id=101;
+	   this.name="Ram";   
+   }
+   
+   public Person (String name, int id) {
+	   this.name = name;
+	   this.id = id;
    }
 
    public String getName() {
